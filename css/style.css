@@ -60,7 +60,10 @@ nav{
 }
 
 /* nav area end */
+
+
 /* Banner area start */
+
 #banner{
    margin-top: 80px;
    position: relative; 
@@ -96,6 +99,7 @@ nav{
    top: 63px;
    left: 0;
 }
+
 .circle-three{
    position: absolute;
    width: 75px;
@@ -103,6 +107,7 @@ nav{
    top: 63px;
    left: 0;
 }
+
 .circle-four{
    position: absolute;
    width: 30px;
@@ -110,6 +115,7 @@ nav{
    top: 87px;
    right: 170px;
 }
+
 .circle-five{
    position: absolute;
    width: 38px;
@@ -117,6 +123,7 @@ nav{
    bottom:60px;
    left: 200px;
 }
+
 .circle-six{
    position: absolute;
    width: 135px;
@@ -124,6 +131,7 @@ nav{
    bottom: 42px;
    right: 0;
 }
+
 .hero-section{
    position: relative; 
 }
@@ -155,6 +163,7 @@ nav{
    background-color: #FCE2DC;
 
 }
+
 .hero-photo{
    text-align: center;
    position: relative;
@@ -315,5 +324,190 @@ nav{
 
 /* Service area start */
 
+#services{
+   text-align: center;
+   margin-top: 160px; 
+} 
+.service-list{
+   position: relative;
+   padding-bottom: 80px;
+}
+.service-list::after{ 
+   content: "";
+   position: absolute;
+   width: 1270px;
+   height:265px;
+   bottom: 0;
+   left: 50%;
+   transform: translateX(-50%);
+   z-index: -1; 
+   background: #F9F9F9;
+} 
+
+.s-title{
+   font-family: 'Noticia Text', serif;
+   text-align: center;
+   font-size: 48px;
+   line-height: 63px;
+   color: #222222;
+   position: relative;
+}
+
+.s-title-img{
+   position: absolute;
+   left: 51%;
+}
+
+.service-list{
+   display: flex;
+   justify-content: space-between;
+   margin-top: 53px;
+}
+.service-item{ 
+   width: 370px;
+   height: 390px;
+   border-radius: 8px;
+   background-color: #FFFFFF;
+}
+.service-img{
+   margin-top: 53px;
+}
+.service-icon{
+   /* width: 65px; */
+   max-height: 65px;
+   object-fit: cover;
+}
+ 
+.service-name{
+   font-family: 'Noticia Text', serif;
+   font-size: 24px;
+   line-height: 24px;
+   font-weight: 800;
+   margin-top: 45px;
+   margin-bottom: 20px;
+}
+
+ 
+
+.service-desc p{
+   font-family: 'Roboto', sans-serif;
+   font-weight: 400;   
+   line-height: 26px;
+   font-size: 16px;
+   color: #888888;
+   padding: 0 24px;
+   
+}
+
+.service-link{
+   margin-top: 25px;
+}
+.link{
+   font-family: 'Roboto', sans-serif;
+   font-size: 16px;
+   font-weight: 800;   
+   line-height: 15px;
+   color: #FF5733;
+   text-transform: capitalize;
+}
 /* Service area End */
 
+/* Experiance area start  */
+#testimonial{
+margin-top:160px ;
+}
+.t-title{
+   text-align: center;
+   font-family: 'Noticia Text', serif;
+   font-size: 48px;
+   line-height: 63px;
+   font-weight: 800;
+}
+
+.testimonial-title{
+   margin-bottom: 68px;
+   position: relative;
+}
+
+.testmonial-info{
+   display: flex;  
+   background: #F9F9F9;
+   padding: 80px 91px 80px 82px;
+   padding-left: 32px;
+}
+
+.t-title-img{
+   position: absolute;
+   left: 43%;
+}
+
+.quote-icon{
+   width: 60px;
+   height: 60px;
+}
+.testmonial-content{  
+   width: 60%;
+
+}
+.quote-inner{
+   margin-left: 65px;
+}
+.quote-message p{
+   font-family: 'Roboto', sans-serif;
+   font-weight: 400; 
+   font-size: 24px;
+   line-height: 34px; 
+   margin-bottom: 30px;
+   color: #888888;
+}
+
+.testmonial-photo{
+  width: 40%;
+}
+
+.testmonial-photo img{
+  width: 445px;
+  height: 525px;
+  padding-left: 32px;
+}
+
+.quoter-profile{
+   display: flex;
+   align-items: center;
+}
+
+.quoter-photo img{
+   height: 75px;
+   width: 75px;
+   border-radius: 50%;
+   padding-right: 7px;
+}
+
+.quoter-photo{
+   margin-right: 7px;
+}
+
+.quoter-info{
+   margin-left: 7px;
+}
+
+.quoter-name{
+   font-family: 'Roboto', sans-serif;
+   font-size: 20px;
+   font-weight: 800;
+   line-height: 20px;
+   text-transform: capitalize;
+   color: #222222;
+   margin-bottom: 6px;
+}
+
+.quoter-designation{
+   font-family: 'Roboto', sans-serif;
+   font-size: 16px;
+   font-weight: 600;
+   line-height: 16px;
+   text-transform: capitalize;
+   margin-top: 6px;
+   color: #777777;
+}
+/* Experiance area end  */

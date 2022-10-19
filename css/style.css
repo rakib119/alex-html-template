@@ -1,0 +1,319 @@
+/* common css start */
+ *{
+    margin: 0;
+    padding: 0;
+ }
+ a{
+    text-decoration: none;
+ }
+ ul,ol{
+    list-style-type: none;
+ }
+ h1,h2,h3,h4,h5,h6,p{
+    line-height: 0.8;
+ }
+ .container{
+   width:1170px;
+   margin: 0 auto;
+ }
+ body{
+   overflow-x: hidden;
+ }
+/* common css end */
+
+/* nav area start */
+nav{
+   padding: 23px 0;
+   border-bottom: 1px solid #F1F1F1;
+}
+
+.nav-bar{
+   display: flex; 
+   align-items: center;
+   justify-content: space-between;
+}
+
+.logo{ 
+   width: 20%; 
+}
+
+.menu{ 
+   width: 80%; 
+}
+
+.menu ul{
+   display: flex;
+   justify-content: flex-end; 
+}
+
+.menu ul li a{
+   font-family: 'Roboto', sans-serif;
+   font-size: 14px;
+   font-weight: 400;
+   color: #222222;
+   text-transform: capitalize;
+   padding: 0 29px; 
+}
+
+.menu ul li:last-child a{
+   padding-right: 0;
+}
+
+/* nav area end */
+/* Banner area start */
+#banner{
+   margin-top: 80px;
+   position: relative; 
+}
+.hero{
+   position: relative;
+}
+.ciecle{
+   border-radius: 50%;
+   border: 1px solid #FF5733;
+}
+
+.circle-one{
+   position: absolute;
+   width: 377px;
+   height: 377px;
+   bottom: -125px;
+   left: -230px;
+}
+
+.circle-two{
+   position: absolute;
+   width: 279px;
+   height: 279px;
+   top: 25px;
+   right: -180px;
+}
+
+.circle-three{
+   position: absolute;
+   width: 75px;
+   height: 75px;
+   top: 63px;
+   left: 0;
+}
+.circle-three{
+   position: absolute;
+   width: 75px;
+   height: 75px;
+   top: 63px;
+   left: 0;
+}
+.circle-four{
+   position: absolute;
+   width: 30px;
+   height: 30px;
+   top: 87px;
+   right: 170px;
+}
+.circle-five{
+   position: absolute;
+   width: 38px;
+   height: 38px;
+   bottom:60px;
+   left: 200px;
+}
+.circle-six{
+   position: absolute;
+   width: 135px;
+   height: 135px;
+   bottom: 42px;
+   right: 0;
+}
+.hero-section{
+   position: relative; 
+}
+
+.hero-section::before{ 
+   content: "";
+   position: absolute;
+   width: 32.5px;
+   height: 32.5px;
+   border-radius: 50%;
+   top: 50%;
+   transform: translateY(-50%);
+   left: 38.5%;
+   z-index: -2; 
+   background-color: #FCE2DC;
+
+}
+
+.hero-section::after{ 
+   content: "";
+   position: absolute;
+   width: 32.5px;
+   height: 32.5px;
+   border-radius: 50%;
+   top: 50%;
+   transform: translateY(-50%);
+   right: 38.5%;
+   z-index: -2; 
+   background-color: #FCE2DC;
+
+}
+.hero-photo{
+   text-align: center;
+   position: relative;
+   /* width: 120px;
+   height: 120px; */
+}
+
+.hero-photo img{
+   /* height: 100%;
+   height: 100%; */
+   width: 120px;
+   height: 120px;
+   object-fit: cover;
+   border-radius: 50%;
+   border: 2px solid #FCE2DC; 
+}
+
+.hero-photo::before {
+   content: "";
+   position: absolute;
+   width: 35px;
+   height: 35px;
+   border-radius: 50%;
+   top: 50%;
+   transform: translateY(-50%);
+   left: 40.3%;
+   z-index: -1; 
+   border: 30px solid #FF5733;
+} 
+
+.hero-photo::after {
+   content: "";
+   position: absolute;
+   width: 35px;
+   height: 35px;
+   border-radius: 50%;
+   top: 50%;
+   transform: translateY(-50%);
+   right: 40.3%;
+   z-index: -1; 
+   border: 30px solid #FF5733;
+}
+
+.hero-info{
+   text-align: center;
+   padding-top:30px ;
+}
+
+.intro-title{
+   font-family: 'Noticia Text', serif;
+   color: #FF5733;
+   font-size: 24px;
+   line-height: 24px;
+   font-weight: 800;
+}
+
+.hero-title{
+   font-family: 'Noticia Text', serif;
+   color: #222222;
+   font-size: 64px;
+   line-height: 74px;
+   padding: 20px 240px 0;
+   text-transform:capitalize;
+}
+
+.hero-desc{
+   font-family: 'Roboto', sans-serif;
+   font-size: 18px;
+   line-height: 30px;
+   color: #888888;
+   /* padding-top: 30px; */
+   padding: 30px 333px 0;
+}
+
+.hero-link{
+   margin-top: 40px;
+   text-align: center;
+}
+
+.hero-button{
+   font-family: 'Roboto', sans-serif;
+   width: 200px;
+   height: 52px;
+   font-size: 16px;
+   line-height: 15px;
+   color: #ffff;
+   background: #FF5733;
+   border-radius: 50px;
+   padding: 19px 40px;
+}
+
+/* Banner area end */
+
+
+/* Brand area start */
+
+#brands{ 
+   margin-top: 105px; 
+}
+
+.brand{
+   display: flex;
+   justify-content: space-between;
+}
+
+/* Brand area end */
+
+
+/* Description area start */
+#description{
+   margin-top: 219px;
+}
+ 
+.description-section{
+   position: relative;
+   display: flex;
+   justify-content: space-between;
+}
+
+.description-title{
+   width: 50%;
+   padding-right: 53px ;
+}
+
+.description-section::after{
+   content: "";
+   position: absolute;
+   width: 790px;
+   height: 366px;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   z-index: -1; 
+   background: #F9F9F9;
+}
+
+.description-title p{
+   font-family: 'Noticia Text', serif;
+   font-size: 48px !important;
+   color: #222222;
+   line-height: 63px;
+   font-weight: 800;
+   text-transform: capitalize;
+}
+
+.description-paragraph{
+   width: 50%;
+   padding-left: 53px ;
+}
+.description-paragraph p{
+   font-family: 'Roboto', sans-serif;
+   font-size: 18px !important;
+   color: #888888;
+   line-height: 30px;
+   font-weight: 400; 
+}
+/* Description area end */
+
+/* Service area start */
+
+/* Service area End */
+

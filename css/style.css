@@ -539,11 +539,15 @@ nav{
 
 .link{
    font-family: var(--secondary-font);
-   font-size: 16px;
+   font-size: 16px; 
    font-weight: var(--bold);   
    line-height: 15px;
    color: var(--color-primary);
    text-transform: capitalize;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 8px;
 }
 
 /* Service area End */
@@ -650,6 +654,30 @@ nav{
    color: #777777;
 }
 
+.slider-btn{
+   display: flex; 
+   align-items: center;
+   gap: 20px;
+}
+
+.arrow {
+   margin-top: 50px;
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   background: #EFEFEF;
+   color: #AAAAAA; 
+   text-align: center; 
+   position: relative;
+   cursor: pointer;
+}
+
+.arrow i{
+   position: absolute;
+   top: 50%;
+   left:50%;
+   transform: translate(-50%,-50%);
+}
 /* Experiance area end  */
 
 
@@ -681,16 +709,24 @@ nav{
    position: relative;
    width: 570px;
    height: 570px;
-   margin-bottom: 30px;
-   /* background: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(150, 150, 150, 0.187766) 41.67%, rgba(196, 196, 196, 0) 54.45%); */
-   /* transform: rotate(180deg);  */
+   margin-bottom: 30px; 
 }
 
 .project-info{
+   margin: 0 0 35px 35px;
+}
+
+.overlay{
    position: absolute;  
-   bottom: 35px;
-   left: 35px;
+   top: 0;
+   left: 0;
    z-index: 1;  
+   width: 100%;
+   height: 100%;
+   display: flex;
+   align-items: flex-end;
+   background: linear-gradient(  rgba(255, 255, 255, 0.187766) ,rgba(0, 0, 0, 0.8)); 
+   /* transform: rotate(180deg);  */
 }
 
 .project-photo img{
